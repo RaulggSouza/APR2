@@ -1,0 +1,3 @@
+Comparar palindromos:
+    Se for comparar a String com a String invertida, se te 2N operações
+    Se for comparar a primeira letra (i) com a ultima letra (n), e for fazendo i++ e n-- até achar a metade da palavra ou que as letras não forem iguais, se tem n/2 operações
