@@ -39,7 +39,7 @@ int troco_pd(int valor, int moedas[], int m, int cache[]){
             min_moedas = valor + 1;
             for(int i = m-1; i >= 0; i--){
                 if (valor >= moedas[i]){
-                    int t = 1 + troco_rec(valor - moedas[i], moedas, m);
+                    int t = 1 + troco_pd(valor - moedas[i], moedas, m, cache);
                     if (t < min_moedas){
                         min_moedas = t;
                     }
